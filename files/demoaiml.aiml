@@ -1,12 +1,329 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml version="2.0">
-	<!-- insert your AIML categories here -->
-	 <category>
-      <pattern> HELLO ALICE </pattern>
-      
-      <template>
-         Hello User
-      </template>
-      
-   </category>
+<aiml>
+    <!-- insert your AIML categories here -->
+    <category>
+        <pattern> HELLO HAL </pattern>
+        
+        <template>
+            Hello Dave
+        </template>
+        
+    </category>
+    <category>
+        <pattern> WHAT IS AIML </pattern>
+        <template>
+            Artificial Intelligence Markup Language (AIML) evolved from XML in order to serve as the âvocabularyâ of chatbots, devices and applications between people and
+            machine. The applications that use AIML have grown from the origins rooted in providing a âvoiceâ to a developed chatbot for a contest to see which application could be
+            more âhuman-likeâ to now as the basis for chatbots, internet enabled devices and even stand-alone equipment and âsmart devices.â The language standards emphasize
+            simplicity and require developers to have strong writing and language understanding to make the language come âaliveâ and mimic human interaction. Over time AIML is
+            projected to evolve from chatbots to nearly every device that has to interact with people in providing status, updates, diagnostics and information thereby transforming
+            data into information and knowledge.
+        </template>
+    </category>
+    <category>
+        <pattern> WHAT IS TURING * </pattern>
+        <template>
+            Turing <star/> In 1950, Alan Turn created a test for machines to gauge their ability mimic human behavior in a way indistinguishable from people.
+        </template>
+    </category>
+    <category>
+        <pattern> DEFINE AIML </pattern>
+        <template>
+            Artificial Intelligence Markup Language is âan XML based markup language meant to create artificial intelligent applications. AIML makes it possible to create human
+            interfaces while keeping the implementation simple to program, easy to understand and highly maintainable.â The most practical use of the AIML
+            language is to provide the âvoiceâ for chatbots in the form of content that is more human in nature and is designed to approximate a more natural style of dialog between
+            application and person. Individuals encounter AIML when a chatbot appears and the library of dialogs stored by the chatbot processor reads the AIML for the appropriate response. The goal of
+            AIML is to provide âsimplicityâ through the creation of conversationally capable content that is engineered so that each question posed to the computer is made like a
+            âconversational replyâ. The AIML developer needs a combined knowledge of technology programming skills and literary talents in order to enrich the vocabulary of the
+            artificial intelligent platform, chatbot or responding software in order to allow for a more natural âhumanâ sounding response. 
+            <button>
+                <text>Read About it here</text>
+                <url>https://www.tutorialspoint.com/aiml/index.htm</url>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern> DEFINITION OF AIML </pattern>
+        <template>
+            Artificial Intelligence Markup Language is âan XML based markup language meant to create artificial intelligent applications. AIML makes it possible to create human
+            interfaces while keeping the implementation simple to program, easy to understand and highly maintainable.â The most practical use of the AIML
+            language is to provide the âvoiceâ for chatbots in the form of content that is more human in nature and is designed to approximate a more natural style of dialog between
+            application and person. Individuals encounter AIML when a chatbot appears and the library of dialogs stored by the chatbot processor reads the AIML for the appropriate response. The goal of
+            AIML is to provide âsimplicityâ through the creation of conversationally capable content that is engineered so that each question posed to the computer is made like a
+            âconversational replyâ. The AIML developer needs a combined knowledge of technology programming skills and literary talents in order to enrich the vocabulary of the
+            artificial intelligent platform, chatbot or responding software in order to allow for a more natural âhumanâ sounding response. 
+            <button>
+                <text>Read About it here</text>
+                <url>https://www.tutorialspoint.com/aiml/index.htm</url>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern> WHAT IS THE DEFINITION OF AIML </pattern>
+        <template>
+            Artificial Intelligence Markup Language is âan XML based markup language meant to create artificial intelligent applications. AIML makes it possible to create human
+            interfaces while keeping the implementation simple to program, easy to understand and highly maintainable.â The most practical use of the AIML
+            language is to provide the âvoiceâ for chatbots in the form of content that is more human in nature and is designed to approximate a more natural style of dialog between
+            application and person. Individuals encounter AIML when a chatbot appears and the library of dialogs stored by the chatbot processor reads the AIML for the appropriate response. The goal of
+            AIML is to provide âsimplicityâ through the creation of conversationally capable content that is engineered so that each question posed to the computer is made like a
+            âconversational replyâ. The AIML developer needs a combined knowledge of technology programming skills and literary talents in order to enrich the vocabulary of the
+            artificial intelligent platform, chatbot or responding software in order to allow for a more natural âhumanâ sounding response. 
+            <button>
+                <text>Read About it here</text>
+                <url>https://www.tutorialspoint.com/aiml/index.htm</url>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern> BOT RULES </pattern>
+        <template>
+            AIML is used to âdefine the relationship between three entities: a human chatter called the client, a human chatbot author called the botmaster and the bot itself.â There are no set rules for the
+            number of bots, botmaster or clients except there must be at least one of each. The botmaster can determine the appropriate mix of entities but there are rules around each configuration including:
+            Bot Configuration and State Unique to Each Bot:
+            AIML Files â Bot files used to define the âpersonalityâ of the bot character.
+            LearnF File â Learned category index for key elements/topics in AIML.
+            Bot Properties â âGlobal variablesâ i.e. like bot name.
+                Substitutions â Gender, person, sentence splitters such as he/she/pronoun changes to specialize bot responses.
+                Predicate Defaults â âLocal Variablesâ specific to the bot.
+                Sets and Maps â Strings and maps to join AIML data sentences in replies.
+                Client Session and State Performed by Each Bot with AIML on a Chat startup:
+                Initialization â Startup of the client session with unique ID for the AIML interpreter to track the conversation.
+                Predicate Defaults and State â AIML values contextualized defaults.
+                Topic, Conversation Log and History â AIML Topic is based on the predicate then matching patters are used to keep track of the conversations and interactions between client and bot.
+                Learned Categories â The LearnF file are global categories but categories learned within the AIML tags are specific to each client kept in sessions logs.
+            <button>
+                <text>Read About it here</text>
+                <url>http://www.aiml.foundation/doc.html</url>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern> HISTORY OF AIML </pattern>
+        <template>
+            In 1995, Dr. Richard Wallace began work on a project called Artificial Linguistic Internet Computer Entity (A.L.I.C.E for short). The project was based on a Chatterbots
+            Challenge as an extension of the âTuring Testâ whereby the goal was to create a computer response application capable of exhibiting human intelligent behaviors. The
+            original program for A.L.I.C.E was written in Java in the late 1990s and was inspired by the ELIZA computer program written by Joseph Weizenbaum at MIT in the mid-
+            1960s. The foundational data structure of the A.L.I.C.E application was a new XML Schema called AIML. The A.L.I.C.E. program was the first to use and leverage the new
+            AIML standards and the syntax is often referred to as an âXML Dialectâ.
+            Over the course of seven plus years from 1995 to 2002, Dr. Wallace and a âworldwide software community called the A.L.I.C.E Foundationâ developed AIML for use with
+            chatbots. In 2004, A.L.I.C.E using AIML as its foundational basis won the annual Loebner Prize Competition on Artificial Intelligence three times and was ChatterBox
+            Challenge Champion in 2004.  A.L.I.C.E uses AIML in three steps:
+            User Question Input
+            Bot Compares Input to AIML Categories and Patterns
+            Bot Makes AIML Pattern Match and Presentation
+            AIMLâs earlier releases followed a rule of simplicity whereby the number of tags, maps and responses were meant to be easily read by the âbotmasterâ. The newer
+            release of AIML 2.0 was meant to clean up the explosion of tags, provide new media and richer extensions, improve loops, local variables, maps and sets of words for use
+            Therefore, AIML is meant to be as reader âfriendlyâ as possible given the need to have rich vocabulary and reply maps. 
+            <button>
+                <text>Read About it here</text>
+                <url>https://www.chatbots.org/chatterbox</url>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern> WHAT IS THE HISTORY OF AIML </pattern>
+        <template>
+            In 1995, Dr. Richard Wallace began work on a project called Artificial Linguistic Internet Computer Entity (A.L.I.C.E for short). The project was based on a Chatterbots
+            Challenge as an extension of the âTuring Testâ whereby the goal was to create a computer response application capable of exhibiting human intelligent behaviors. The
+            original program for A.L.I.C.E was written in Java in the late 1990s and was inspired by the ELIZA computer program written by Joseph Weizenbaum at MIT in the mid-
+            1960s. The foundational data structure of the A.L.I.C.E application was a new XML Schema called AIML. The A.L.I.C.E. program was the first to use and leverage the new
+            AIML standards and the syntax is often referred to as an âXML Dialectâ.
+            Over the course of seven plus years from 1995 to 2002, Dr. Wallace and a âworldwide software community called the A.L.I.C.E Foundationâ developed AIML for use with
+            chatbots. In 2004, A.L.I.C.E using AIML as its foundational basis won the annual Loebner Prize Competition on Artificial Intelligence three times and was ChatterBox
+            Challenge Champion in 2004.  A.L.I.C.E uses AIML in three steps:
+            User Question Input
+            Bot Compares Input to AIML Categories and Patterns
+            Bot Makes AIML Pattern Match and Presentation
+            AIMLâs earlier releases followed a rule of simplicity whereby the number of tags, maps and responses were meant to be easily read by the âbotmasterâ. The newer
+            release of AIML 2.0 was meant to clean up the explosion of tags, provide new media and richer extensions, improve loops, local variables, maps and sets of words for use
+            Therefore, AIML is meant to be as reader âfriendlyâ as possible given the need to have rich vocabulary and reply maps. 
+            <button>
+                <text>Read About it here</text>
+                <url>https://www.chatbots.org/chatterbox</url>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern> INDUSTRIES USING AIML </pattern>
+        <template>
+            Most people have encountered chatbots on retail and service-based websites. These virtual attendants provide answers for many frequently asked questions and if the
+            AIML language behind the chatbot is enriched enough can dialog with most users in a personalized way. The categories and tags within AIML provide both responses to
+            key words and phrases within the AIML files and the chatbots can string together responses from sophisticated sentences from the users by parsing key words and in
+            turn applying âmapsâ of the user dialogs stored in arrays. Therefore, the more enriched vocabularies of the AIML file data and the localized predicates make the chatbots
+            take on a type of personality.
+            Chatbots that use AIML can be found in the following industries and companies:
+            Education and Entertainment â sites such as Code Monkey Trivia and Pop Geo.
+            Healthcare â companies such as GYANT and Buoy Health
+            Booking / Real Estate â sites such as Snap Travel and Hipmunk
+            News â providers such as CNN and Wall Street Journal
+            Retail â merchant sites such as Dominos, Leviâs and Sephora
+            <button>
+                <text>Read About it here</text>
+                <url>https://www.tidio.com/blog/chatbot-examples/</url>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern> WHICH INDUSTRIES ARE USING AIML </pattern>
+        <template>
+            Most people have encountered chatbots on retail and service-based websites. These virtual attendants provide answers for many frequently asked questions and if the
+            AIML language behind the chatbot is enriched enough can dialog with most users in a personalized way. The categories and tags within AIML provide both responses to
+            key words and phrases within the AIML files and the chatbots can string together responses from sophisticated sentences from the users by parsing key words and in
+            turn applying âmapsâ of the user dialogs stored in arrays. Therefore, the more enriched vocabularies of the AIML file data and the localized predicates make the chatbots
+            take on a type of personality.
+            Chatbots that use AIML can be found in the following industries and companies:
+            Education and Entertainment â sites such as Code Monkey Trivia and Pop Geo.
+            Healthcare â companies such as GYANT and Buoy Health
+            Booking / Real Estate â sites such as Snap Travel and Hipmunk
+            News â providers such as CNN and Wall Street Journal
+            Retail â merchant sites such as Dominos, Leviâs and Sephora
+            <button>
+                <text>Read About it here</text>
+                <url>https://www.tidio.com/blog/chatbot-examples/</url>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern> WHAT INDUSTRIES ARE USING AIML </pattern>
+        <template>
+            Most people have encountered chatbots on retail and service-based websites. These virtual attendants provide answers for many frequently asked questions and if the
+            AIML language behind the chatbot is enriched enough can dialog with most users in a personalized way. The categories and tags within AIML provide both responses to
+            key words and phrases within the AIML files and the chatbots can string together responses from sophisticated sentences from the users by parsing key words and in
+            turn applying âmapsâ of the user dialogs stored in arrays. Therefore, the more enriched vocabularies of the AIML file data and the localized predicates make the chatbots
+            take on a type of personality.
+            Chatbots that use AIML can be found in the following industries and companies:
+            Education and Entertainment â sites such as Code Monkey Trivia and Pop Geo.
+            Healthcare â companies such as GYANT and Buoy Health
+            Booking / Real Estate â sites such as Snap Travel and Hipmunk
+            News â providers such as CNN and Wall Street Journal
+            Retail â merchant sites such as Dominos, Leviâs and Sephora
+            <button>
+                <text>Read About it here</text>
+                <url>https://www.tidio.com/blog/chatbot-examples/</url>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern> SAMPLE AIML CODE </pattern>
+        <template>
+            Overall, AIML has very simple rules around how the markup language is constructed. The complexity of the AIML resides in the mapping, stringing and context
+            enrichment to ensure that there is enough âvocabularyâ for the user to dialog when they interact with the chatbot. The less content the less ability for the chatbot to
+            respond to a question. The less maps and predicates result in reduced dynamic ability of the chatbot in its ability to break apart sentences and key words into dynamic
+            responses. AIML mandates simplicity in the standard language and places pressure on the content provider to ensure there is enough vocabulary to make the chat
+            worthwhile.
+            The most common AIML tags and the minimum required to create an AIML document are the following:
+            &lt;aiml&gt; - tags signify the begin and end of an AIML document.
+            &lt;category&gt;- defines a âknowledge unitâ in ALICEâs base
+            &lt;pattern&gt; - defines what the user is expected to type into the bot
+            &lt;template&gt; - defines the response of the bot based on the category and pattern.
+            <button>
+                <text>Read About it here</text>
+                <url>https://www.tutorialspoint.com/aiml/index.htm</url>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern> WHAT IS SAMPLE AIML CODE </pattern>
+        <template>
+            Overall, AIML has very simple rules around how the markup language is constructed. The complexity of the AIML resides in the mapping, stringing and context
+            enrichment to ensure that there is enough âvocabularyâ for the user to dialog when they interact with the chatbot. The less content the less ability for the chatbot to
+            respond to a question. The less maps and predicates result in reduced dynamic ability of the chatbot in its ability to break apart sentences and key words into dynamic
+            responses. AIML mandates simplicity in the standard language and places pressure on the content provider to ensure there is enough vocabulary to make the chat
+            worthwhile.
+            The most common AIML tags and the minimum required to create an AIML document are the following:
+            &lt;aiml&gt; - tags signify the begin and end of an AIML document.
+            &lt;category&gt;- defines a âknowledge unitâ in ALICEâs base
+            &lt;pattern&gt; - defines what the user is expected to type into the bot
+            &lt;template&gt; - defines the response of the bot based on the category and pattern.
+            <button>
+                <text>Read About it here</text>
+                <url>https://www.tutorialspoint.com/aiml/index.htm</url>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern> SHOW ME SOME AIML CODE </pattern>
+        <template>
+            Overall, AIML has very simple rules around how the markup language is constructed. The complexity of the AIML resides in the mapping, stringing and context
+            enrichment to ensure that there is enough âvocabularyâ for the user to dialog when they interact with the chatbot. The less content the less ability for the chatbot to
+            respond to a question. The less maps and predicates result in reduced dynamic ability of the chatbot in its ability to break apart sentences and key words into dynamic
+            responses. AIML mandates simplicity in the standard language and places pressure on the content provider to ensure there is enough vocabulary to make the chat
+            worthwhile.
+            The most common AIML tags and the minimum required to create an AIML document are the following:
+            &lt;aiml&gt; - tags signify the begin and end of an AIML document.
+            &lt;category&gt;- defines a âknowledge unitâ in ALICEâs base
+            &lt;pattern&gt; - defines what the user is expected to type into the bot
+            &lt;template&gt; - defines the response of the bot based on the category and pattern.
+            <button>
+                <text>Read About it here</text>
+                <url>https://www.tutorialspoint.com/aiml/index.htm</url>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern> FUTURE OF AIML</pattern>
+        <template>
+            The more devices become internet capable the greater the potential to implement the chatbot A.L.I.C.E capabilities in the form of terminal chats, avatars and voice recognition devices all using
+            standard language protocols programmed by device creators with custom categories. These chatbots can then be personalized using AIML standards to then enrich the user experience. A
+            logical extension of the applications for AIML as the language evolves is in the following areas:
+            Digital Advertising â Targeted advertising on nearly all enabled devices using a communicating avatar.
+            Toys â Talking Teddy Bears, board games, robot reading books are just the start of the gaming uses.
+            TV and Entertainment Center Devices â Asking for content, verbal requests for channels, shows and content. Alexa and Siri are just the beginning.
+            Smart Home â Thermostats, refrigerators and stoves can help keep the home comfortable, help with cooking and even diets.
+            Automobiles â dialog diagnostics can provide information on the car maintenance and even remind the driver that they need gas or even for safety in terms of having a child in
+            the back seat as they exit the vehicle.
+            <button>
+                <text>Read About it here</text>
+                <url>https://pandorabots.com/static/html/PremiumServices/AIaas/applications.html</url>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern> WHAT IS THE FUTURE OF AIML</pattern>
+        <template>
+            The more devices become internet capable the greater the potential to implement the chatbot A.L.I.C.E capabilities in the form of terminal chats, avatars and voice recognition devices all using
+            standard language protocols programmed by device creators with custom categories. These chatbots can then be personalized using AIML standards to then enrich the user experience. A
+            logical extension of the applications for AIML as the language evolves is in the following areas:
+            Digital Advertising â Targeted advertising on nearly all enabled devices using a communicating avatar.
+            Toys â Talking Teddy Bears, board games, robot reading books are just the start of the gaming uses.
+            TV and Entertainment Center Devices â Asking for content, verbal requests for channels, shows and content. Alexa and Siri are just the beginning.
+            Smart Home â Thermostats, refrigerators and stoves can help keep the home comfortable, help with cooking and even diets.
+            Automobiles â dialog diagnostics can provide information on the car maintenance and even remind the driver that they need gas or even for safety in terms of having a child in
+            the back seat as they exit the vehicle.
+            <button>
+                <text>Read About it here</text>
+                <url>https://pandorabots.com/static/html/PremiumServices/AIaas/applications.html</url>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern> WHAT IS THE BEST WIZARD PRESENTATION</pattern>
+        <template>
+            I am partial to THIS presentation on AIML and Chatbots!                        
+            <button>
+                <text>Read About it here</text>
+                <url>http://ceweb.uml.edu/wledb07474/xml_class/week09/AIML_Presentation_With_Notes.PDF</url>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern> WHO HAS THE BEST PRESENTATION</pattern>
+        <template>
+            I am partial to THIS presentation on AIML and Chatbots!                        
+            <button>
+                <text>Read About it here</text>
+                <url>http://ceweb.uml.edu/wledb07474/xml_class/week09/AIML_Presentation_With_Notes.PDF</url>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern> WHICH PRESENTATION IS THE BEST</pattern>
+        <template>
+            I am partial to THIS presentation on AIML and Chatbots!                        
+            <button>
+                <text>Read About it here</text>
+                <url>http://ceweb.uml.edu/wledb07474/xml_class/week09/AIML_Presentation_With_Notes.PDF</url>
+            </button>
+        </template>
+    </category>
 </aiml>

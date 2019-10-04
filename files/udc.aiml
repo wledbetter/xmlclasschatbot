@@ -4,4 +4,42 @@
     <pattern>*</pattern>
     <template>I have no answer for that.</template>
   </category>
+   <category>
+      <pattern> HELLO ALICE </pattern>
+      
+      <template>
+         Hello User
+      </template>
+      
+   </category>
+   <category>
+       <pattern>SHOW ME A MAP OF *</pattern>
+       <template>
+           Here is a map of <star/>
+           <button>
+               <text>Click here</text>
+               <url>https://www.google.com/maps?q=<star/></url>
+           </button>
+       </template>
+   </category>
+   <category>
+       <pattern>WHAT IS THE WEATHER IN * </pattern>
+       <template>
+           I hope it is a nice day in <star/>.
+           <button>
+               <text>Click here for the forecast</text>
+               <url>https://www.weather-forecast.com/locations/<star/>/forecasts/latest</url>
+           </button>
+       </template>
+   </category>
+   <category>
+       <pattern>WHAT IS *</pattern>
+       <template>
+           Let me see if I can find <star/> on Wikipedia..
+           <button>
+               <text>Read About it on Wikipedia</text>
+               <url>https://en.wikipedia.org/wiki/<star/></url>
+           </button>
+       </template>
+   </category>
 </aiml>
